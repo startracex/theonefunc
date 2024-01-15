@@ -1,6 +1,6 @@
 {
   "name": "theonefunc",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "converts string parameter functions and literal parameter functions",
   "main": "index.js",
   "type": "module",
