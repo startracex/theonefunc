@@ -12,6 +12,6 @@ export function createStringFunc<T>(
   rawFunc: (strings: TemplateStringsArray, ...values: any[]) => T
 ): (str: string) => T {
   return (str: string) => {
-    return rawFunc`${str}`;
+    return rawFunc([str] as unknown as TemplateStringsArray);
   };
 }
